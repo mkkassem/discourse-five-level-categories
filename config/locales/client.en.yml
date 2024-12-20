@@ -1,6 +1,6 @@
-# config/locales/client.en.yml
 en:
   js:
     category:
-      max_depth_reached: "You've reached the maximum category depth of 5 levels"
-      parent_category_depth: "This category already has the maximum number of subcategories"
+      max_depth_reached: "Maximum category depth reached"
+      subcategories_allowed: "This category can have subcategories"
+

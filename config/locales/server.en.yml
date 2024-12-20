@@ -1,8 +1,7 @@
-# config/locales/server.en.yml
 en:
   site_settings:
-    five_level_categories_enabled: Enable 5-level category hierarchy
+    five_level_categories_enabled: "Enable 5-level category hierarchy"
   category:
     errors:
-      depth_exceeded: Categories can only be nested up to %{max_depth} levels deep
+      depth_exceeded: "Categories can only be nested %{max_depth} levels deep"
 

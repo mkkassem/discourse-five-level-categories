@@ -1,0 +1,8 @@
+<section class="field five-level-settings">
+  {{#if category.can_have_children}}
+    <label>{{i18n "category.subcategories_allowed"}}</label>
+  {{else}}
+    <label class="warning">{{i18n "category.max_depth_reached"}}</label>
+  {{/if}}
+</section>
+
