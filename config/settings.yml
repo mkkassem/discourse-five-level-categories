@@ -1,0 +1,5 @@
+# config/settings.yml
+plugins:
+  five_level_categories_enabled:
+    default: true
+    client: true

@@ -1,0 +1,14 @@
+// assets/javascripts/discourse/templates/components/category-selector.hbs
+{{#each categories as |c|}}
+  <div class="category-row depth-{{c.depth}}">
+    {{category-link c allowUncategorized=true}}
+    {{#if c.can_have_children}}
+      {{d-button
+        class="btn-small"
+        action=(action "addSubcategory" c)
+        icon="plus"
+        label="category.add_subcategory"}}
+    {{/if}}
+  </div>
+{{/each}}
+
